@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Genral Code */
+.bg-color{
+    background-color: #0E214B;
+}
+
+.color-text{
+    color: #0E214B;
+}
+
+.blue-text{
+   color:#3F68DE ; 
+}
+.gray-color{
+    color: #958F8F;
+}
+.white-color{
+    color: #EDEDED;
+}
+
+.navbar .container .btn-hover ,.navbar .container .btn-small{
+    color: #fff;
+}
+
+.navbar .container .btn-small:hover , .navbar .container .btn-hover:hover{
+    color: #0E214B;
+    border: #0E214B solid .5px;
+}
+
+.banner{
+    min-height: calc(70vh - 72px);
+
+}
+/* Card page  */
+
+.elements .element .img{
+    background-image: url(../images/eat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 150px ;
+    width: 40%;
+}
+.elements .element .content .counter i,.overlay .model{
+    cursor: pointer;
+}
+.summary .summary-container .right-section{
+    min-height: 500px;
+}
+.line{
+    height: 1px;
+    width: 90%;
+    margin: auto;
+    background-color: #958F8F;
+}
+.summary .summary-container .right-section .button{
+    background-color:#EDEDED ;
+    color: #0E214B;
+    border: none;
+    padding: 8px 16px;
+    width: 70%;
+}
+
+/* Model 1 */
+
+.overlay{
+    background-color: rgb(0, 0, 0,0.6);
+    height: 100%;
+    width: 100%;
+    /* padding: 150px 100px; */
+}
+.model{
+    background-color: #EDEDED;
+    padding-top: 50px;
+    width: 90%;
+    margin: auto;   
+}
+.overlay .container .model .right-section{
+    background-image: url(../images/eat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 40%;
+    height: 200px;
+}
+
+.buttom .choose-from .left{
+    flex-basis: 70%;
+}
+.buttom .choose-from .right{
+    flex-basis: 20%;
+}
+.buttom .choose-from .right p{
+    color: #EDEDED;  
+}
+.chooses .left .icon{
+    width: 60%;
+}
+.chooses .left .icon .img{
+    background-image: url(../images/fire.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 30px;
+    
+}
+.chooses .left .icon span{
+    color: #EDEDED;
+    font-size: 14px;
+}
+
+
+.model .button{
+    color: #EDEDED;
+    border: none;
+    padding: 8px 16px;
+    width: 50%;
+    margin: auto;
+}
+
+/* model2 */
+
+.model2-container{
+    top: 50%;
+    left: 50%;
+    background-color: #EDEDED;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small */
+@media (max-width:752px) {
+    .container {
+        width: 80%;
+    }
+    .navbar .container .btn-hover{
+        display: none !important;
+    }
+
+}
+
+
+@media (min-width:753px) {
+    .navbar .container .btn-small{
+        display: none !important;
+    }
+    .container {
+        width: 80%;
+    }
+
+}
+
+
+/* Medium; */
+@media (max-width:992px) {
+    
+}
+
+/* Large; */
+@media (max-width:1200px) {
+
+
+
+}
+
